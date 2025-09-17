@@ -1,0 +1,17 @@
+# json_tricks
+ultralytics
+
+https://r2-wheels.melmassadian.com/sapiens-cv/sapiens_cv-1.0.0-cp311-cp311-win_amd64.whl#sha256=63470249499d953b0c8d19884dcda3bb621a78d99a292fd1f39727bb6ae21cd8 ; (sys_platform == 'win32' and python_version == '3.11')
+
+# pure python sources
+git+https://github.com/melMass/sapiens.git@main#subdirectory=det
+git+https://github.com/melMass/sapiens.git@main#subdirectory=engine
+git+https://github.com/melMass/sapiens.git@main#subdirectory=pose
+
+# for io
+msgpack
+msgpack_numpy
+
+# These requirements will be removed soon, kept during dev
+# jaxtyping
+# beartype
