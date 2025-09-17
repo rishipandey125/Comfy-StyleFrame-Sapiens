@@ -1,7 +1,8 @@
 # json_tricks
 ultralytics
 
-https://r2-wheels.melmassadian.com/sapiens-cv/sapiens_cv-1.0.0-cp311-cp311-win_amd64.whl#sha256=63470249499d953b0c8d19884dcda3bb621a78d99a292fd1f39727bb6ae21cd8 ; (sys_platform == 'win32' and python_version == '3.11')
+
+https://github.com/melMass/sapiens/releases/download/wheels/sapiens_cv-1.0.0-cp311-cp311-linux_x86_64.whl#sha256:12114ffdcafe67816480fd81d5b15662425099ba3e8fbb21080525f14fd765b0
 
 # pure python sources
 git+https://github.com/melMass/sapiens.git@main#subdirectory=det
