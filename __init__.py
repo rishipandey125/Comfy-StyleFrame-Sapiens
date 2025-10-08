@@ -650,11 +650,13 @@ class SAPIENS_SmoothKeypoints(SapiensBase):
         polyorder=2,
     ):
         from .support.pipeline import smooth_keypoints
+        from .support.datatypes import Result
 
+        smoothed_data = smooth_keypoints(
+            keypoints.data, window_length=window_length, polyorder=polyorder
+        )
         return (
-            smooth_keypoints(
-                keypoints, window_length=window_length, polyorder=polyorder
-            ),
+            Result(metadata=keypoints.metadata, data=smoothed_data),
         )
 
 
